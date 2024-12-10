@@ -5,7 +5,8 @@ from keras.models import load_model
 from keras.preprocessing import image
 
 # Load the trained model
-model = load_model(r'C:\Users\Hemanth\Desktop\EmotionDetection\model_optimal.h5')
+model = load_model('model_optimal.h5')
+
 
 # Define the label dictionary
 label_dict = {0: 'Angry', 1: 'Disgust', 2: 'Fear', 3: 'Happy', 4: 'Neutral', 5: 'Sad', 6: 'Surprise'}
